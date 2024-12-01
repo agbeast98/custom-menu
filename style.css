@@ -1,0 +1,46 @@
+/* استایل‌های صفحه مدیریت */
+.category-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.product-item input, .product-item textarea {
+    margin-right: 10px;
+}
+
+/* استایل‌های شورت‌کد خروجی */
+.product-category {
+    margin-top: 20px;
+}
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.product-name {
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+    width: 50%;
+}
+.product-price {
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    width: 50%;
+}
+.product-description {
+    width: 100%;
+    font-size: 0.9em;
+    color: #666;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
